@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+.page-content {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 .review {
     color:darkslategray;
     font-family: Courier;
-    width: 500px;
+    max-width: 800px;
     text-align: center;
     border: 2px solid;
     padding: 10px
@@ -32,13 +39,14 @@
     text-align: center
 }
 .review-table {
-    color:chartreuse;
+    color:darkgreen;
     text-align: center;
     position: relative;
+    margin:auto;
     
 }
 .navigation {
     border: 2px solid #333;
-    width: 510px;
+    width: 540px;
     padding:10px;
 }
