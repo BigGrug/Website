@@ -1,16 +1,44 @@
-body {
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.review {
+    color:darkslategray;
+    font-family: Courier;
+    width: 500px;
+    text-align: center;
+    border: 2px solid;
+    padding: 10px
+    
+}
+
+.about-me {
     color:darkslategray;
     font-family: Courier
 }
 
-h1 {
+.title {
     color:coral;
     text-align: center
 }
-h2 {
+
+.image {
     text-align: center
 }
-table {
-    color:chartreuse;
+
+.video {
     text-align: center
+}
+.review-table {
+    color:chartreuse;
+    text-align: center;
+    position: relative;
+    
+}
+.navigation {
+    border: 2px solid #333;
+    width: 510px;
+    padding:10px;
 }
