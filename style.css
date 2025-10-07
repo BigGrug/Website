@@ -47,8 +47,36 @@
 }
 .navigation {
     border: 2px solid #333;
-    width: 540px;
-    padding:10px;
+    width: 100%;
+    text-align:center;
+}
+/*base*/
+.nav-button {
+    border: 1px solid;
+}
+/*mobile*/
+.nav-button {
+    width: 140px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/*tablet*/
+@media (min-width: 830px) {
+    .nav-button {
+        display: inline-block;
+        margin: 10px;
+        width: 170px
+    }
+}
+/*desktop*/
+@media (min-width: 1200px) {
+    .nav-button {
+        width: 130px;
+        display: inline-block;
+        margin: 10px;
+    }
 }
 
 .home-link {
