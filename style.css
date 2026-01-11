@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black
+}
+
 .page-content {
     max-width: 800px;
     margin-left: auto;
@@ -12,7 +16,7 @@
 }
 
 .review {
-    color:darkslategray;
+    color: beige;
     font-family: Courier;
     max-width: 800px;
     text-align: center;
@@ -22,7 +26,7 @@
 }
 
 .about-me {
-    color:darkslategray;
+    color: beige;
     font-family: Courier
 }
 
@@ -68,6 +72,10 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     
+}
+
+.contact {
+    color:beige;
 }
 
 /*tablet*/
