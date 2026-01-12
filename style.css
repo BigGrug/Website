@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black
+    background-color: blanchedalmond
 }
 
 .page-content {
@@ -16,7 +16,7 @@ body {
 }
 
 .review {
-    color: beige;
+    color: black;
     font-family: Courier;
     max-width: 800px;
     text-align: center;
@@ -26,7 +26,7 @@ body {
 }
 
 .about-me {
-    color: beige;
+    color: black;
     font-family: Courier
 }
 
@@ -60,10 +60,12 @@ iframe {
     border: 2px solid #333;
     width: 100%;
     text-align:center;
+    color: aqua;
 }
 /*base*/
 .nav-button {
     border: 1px solid;
+    color: aqua;
 }
 /*mobile*/
 .nav-button {
@@ -75,7 +77,7 @@ iframe {
 }
 
 .contact {
-    color:beige;
+    color:black;
 }
 
 /*tablet*/
@@ -83,7 +85,8 @@ iframe {
     .nav-button {
         display: inline-block;
         margin: 10px;
-        width: 170px
+        width: 170px;
+        color: aqua;
     }
 }
 /*desktop*/
@@ -92,9 +95,11 @@ iframe {
         width: 130px;
         display: inline-block;
         margin: 10px;
+        color: aqua;
     }  
 }
 
 .home-link {
-    text-align: center
+    text-align: center;
+    color: aqua;
 }
